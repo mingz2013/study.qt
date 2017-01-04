@@ -1,0 +1,114 @@
+
+QMenu{
+    font-size: 12px;
+}
+
+QMenu{
+    border-image:url(:/menu/menu_bg) 4 50 4 1 repeat-y;
+}
+
+QLabel{
+    font-size: 12px;
+}
+
+QToolTip{
+    font-size: 12px;
+}
+
+PushButton{
+    font-size: 12px;
+}
+
+QPushButton#statusButton{
+    border: none;
+}
+
+QPushButton#statusButton::menu-indicator{
+    image:none;
+}
+
+QPushButton#statusButton:hover{
+    border: 1px solid gray;
+}
+
+QPushButton#statusButton:pressed{
+    border: 1px solid gray;
+}
+
+
+QComboBox{
+    width: 160px;
+    height: 22px;
+    border: 1px solid;
+    border-radius: 1px;
+    border-color:#B9D3EE;
+    font: normal;
+    font-size: 12px;
+    color: gray;
+}
+
+QComboBox::down-arrow{
+    image:url(:/combobox/arrow_down);
+}
+
+QComboBox::drop-down{
+    width: 20px;
+    border-left: 1px solid;
+    border-left-color:#B9D3EE;
+    background: transparent;
+}
+
+QComboBox::drop-down:hover{
+    background: #D1EEEE;
+}
+
+QLineEdit{
+    width: 160px;
+    height: 22px;
+    border: 1px solid;
+    border-radius: 1px;
+    border-color:#B9D3EE;
+    font: normal;
+    font-size: 12px;
+    color: gray;
+}
+
+QLineEdit[echoMode='2']{
+    lineedit-password-character: 9679;
+}
+
+QLineEdit:hover{
+    border-radius:1px;
+    border-width:1px;
+    border-color:#1C86EE;
+}
+
+QCheckBox{
+    font-weight: 450;
+    font-size: 12px;
+    color:#112937;
+}
+
+QCheckBox::indicator:unchecked{
+    image:url(:/checkbox/checkbox_normal);
+}
+
+QCheckBox::indicator:hover{
+    image:url(:/checkbox/checkbox_hover);
+}
+
+QCheckBox::indicator:pressed{
+    image:url(:/checkbox/checkbox_pressed);
+}
+
+QCheckBox::indicator:checked{
+    image:url(:/checkbox/checkbox_selected_normal);
+}
+
+QCheckBox::indicator:checked:hover{
+    image:url(:/checkbox/checkbox_selected_hover);
+}
+
+QCheckBox::indicator:checked:pressed{
+    image:url(:/checkbox/checkbox_selected_pressed);
+}

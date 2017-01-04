@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/res">
+        <file>res/background2.png</file>
+        <file>res/tool.png</file>
+        <file>res/sys_close.png</file>
+        <file>res/lock.jpg</file>
+        <file>res/unlock.jpg</file>
+    </qresource>
+</RCC>

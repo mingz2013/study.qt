@@ -1,0 +1,101 @@
+<RCC>
+    <qresource prefix="/trayicon">
+        <file alias="offline">Resources/Status/QQ/Ico/32/GG/offline.ico</file>
+    </qresource>
+    <qresource prefix="/qm">
+        <file alias="QQ_en">QQ_en.qm</file>
+        <file alias="QQ_zh">QQ_zh.qm</file>
+    </qresource>
+    <qresource prefix="/qss">
+        <file alias="logindialog.qss">Resources/Qss/logindialog.qss</file>
+    </qresource>
+    <qresource prefix="/background">
+        <file alias="texture">Resources/LoginUI/Background/texture.png</file>
+        <file alias="afternoon">Resources/LoginUI/Background/afternoon.jpg</file>
+        <file alias="morning">Resources/LoginUI/Background/morning.jpg</file>
+        <file alias="night">Resources/LoginUI/Background/night.jpg</file>
+        <file alias="noon">Resources/LoginUI/Background/noon.jpg</file>
+        <file alias="picturescroll">Resources/LoginUI/Background/8_21.jpg</file>
+        <file alias="afternoon.swf">Resources/LoginUI/Background/afternoon.swf</file>
+        <file alias="morning.swf">Resources/LoginUI/Background/morning.swf</file>
+        <file alias="night.swf">Resources/LoginUI/Background/night.swf</file>
+        <file alias="noon.swf">Resources/LoginUI/Background/noon.swf</file>
+    </qresource>
+    <qresource prefix="/button">
+        <file alias="add_qq_button_pressed">Resources/LoginUI/Button/button_login_down.png</file>
+        <file alias="add_qq_button_hover">Resources/LoginUI/Button/button_login_hover.png</file>
+        <file alias="add_qq_button_normal">Resources/LoginUI/Button/button_login_normal.png</file>
+        <file alias="login_button_pressed">Resources/LoginUI/Button/button_login_down.png</file>
+        <file alias="login_button_hover">Resources/LoginUI/Button/button_login_hover.png</file>
+        <file alias="login_button_normal">Resources/LoginUI/Button/button_login_normal.png</file>
+        <file alias="qr_code_hover">Resources/LoginUI/Button/corner_right_hover.png</file>
+        <file alias="qr_code_normal">Resources/LoginUI/Button/corner_right_normal_breath.png</file>
+        <file alias="qr_code_pressed">Resources/LoginUI/Button/corner_right_normal_down.png</file>
+        <file alias="single_account_button_pressed">Resources/LoginUI/Button/switch_multi_down.png</file>
+        <file alias="single_account_button_hover">Resources/LoginUI/Button/switch_multi_hover.png</file>
+        <file alias="single_account_button_mormal">Resources/LoginUI/Button/switch_multi_normal.png</file>
+        <file alias="multi_account_button_pressed">Resources/LoginUI/Button/switch_single_down.png</file>
+        <file alias="multi_account_button_hover">Resources/LoginUI/Button/switch_single_hover.png</file>
+        <file alias="multi_account_button_normal">Resources/LoginUI/Button/switch_single_normal.png</file>
+        <file alias="keyboard">Resources/LoginUI/Button/keyboard.png</file>
+        <file alias="mima">Resources/LoginUI/Button/mima.png</file>
+        <file alias="mima_hover">Resources/LoginUI/Button/mima_hover.png</file>
+        <file alias="mima_pressed">Resources/LoginUI/Button/mima_press.png</file>
+        <file alias="zhuce">Resources/LoginUI/Button/zhuce.png</file>
+        <file alias="zhuce_hover">Resources/LoginUI/Button/zhuce_hover.png</file>
+        <file alias="zhuce_pressed">Resources/LoginUI/Button/zhuce_press.png</file>
+        <file>Resources/LoginUI/Button/mima.png</file>
+        <file>Resources/LoginUI/Button/mima_hover.png</file>
+        <file>Resources/LoginUI/Button/mima_press.png</file>
+        <file>Resources/LoginUI/Button/zhuce.png</file>
+        <file>Resources/LoginUI/Button/zhuce_hover.png</file>
+        <file>Resources/LoginUI/Button/zhuce_press.png</file>
+        <file alias="btn_set_hover">Resources/LoginUI/Button/btn_set_hover.png</file>
+        <file alias="btn_set_normal">Resources/LoginUI/Button/btn_set_normal.png</file>
+        <file alias="btn_set_pressed">Resources/LoginUI/Button/btn_set_press.png</file>
+        <file alias="close">Resources/LoginUI/Button/close.png</file>
+        <file alias="close_hover">Resources/LoginUI/Button/close_hover.png</file>
+        <file alias="close_pressed">Resources/LoginUI/Button/close_press.png</file>
+        <file alias="minimize">Resources/LoginUI/Button/minimize.png</file>
+        <file alias="minimize_hover">Resources/LoginUI/Button/minimize_hover.png</file>
+        <file alias="minimize_pressed">Resources/LoginUI/Button/minimize_press.png</file>
+    </qresource>
+    <qresource prefix="/head">
+        <file>Resources/LoginUI/Head/default_head.png</file>
+        <file>Resources/LoginUI/Head/head1.jpg</file>
+        <file alias="default_head">Resources/LoginUI/Head/head2.jpg</file>
+        <file alias="head_background">Resources/LoginUI/Head/loginning_head_animation5.png</file>
+    </qresource>
+    <qresource prefix="/status">
+        <file alias="imonline">Resources/Status/FLAG/Big/imonline.png</file>
+        <file alias="qme">Resources/Status/FLAG/Big/Qme.png</file>
+        <file alias="away">Resources/Status/FLAG/Big/away.png</file>
+        <file alias="busy">Resources/Status/FLAG/Big/busy.png</file>
+        <file alias="imoffline">Resources/Status/FLAG/Big/imoffline.png</file>
+        <file alias="invisible">Resources/Status/FLAG/Big/invisible.png</file>
+        <file alias="mute">Resources/Status/FLAG/Big/mute.png</file>
+    </qresource>
+    <qresource prefix="/combobox">
+        <file alias="arrow_down">Resources/LoginUI/ComboBox/arrow_down.png</file>
+    </qresource>
+    <qresource prefix="/checkbox">
+        <file alias="checkbox_hover">Resources/LoginUI/CheckBox/checkbox_hover.png</file>
+        <file alias="checkbox_normal">Resources/LoginUI/CheckBox/checkbox_normal.png</file>
+        <file alias="checkbox_pressed">Resources/LoginUI/CheckBox/checkbox_press.png</file>
+        <file alias="checkbox_selected_hover">Resources/LoginUI/CheckBox/checkbox_selected_hover.png</file>
+        <file alias="checkbox_selected_normal">Resources/LoginUI/CheckBox/checkbox_selected_normal.png</file>
+        <file alias="checkbox_selected_pressed">Resources/LoginUI/CheckBox/checkbox_selected_press.png</file>
+    </qresource>
+    <qresource prefix="/safe">
+        <file alias="client_trust">Resources/Safe/client_trust.png</file>
+        <file alias="client_trust_small">Resources/Safe/client_trust_small.png</file>
+        <file alias="safe_big_bkg">Resources/Safe/safe_bkg.png</file>
+    </qresource>
+    <qresource prefix="/qrcode">
+        <file alias="qr_default">Resources/QRLogin/qr.jpg</file>
+        <file alias="qr_failed">Resources/QRLogin/qr_failed.jpg</file>
+    </qresource>
+    <qresource prefix="/menu">
+        <file alias="menu_bg">Resources/Menu/menu_bg.png</file>
+    </qresource>
+</RCC>

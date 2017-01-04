@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainDialog</class>
+ <widget class="QDialog" name="MainDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>290</width>
+    <height>530</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>webQQ</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="logindialog.qrc">
+    <normaloff>:/login/Resources/QQ.png</normaloff>:/login/Resources/QQ.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">border-image: url(:/login/Resources/background2.png);</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>290</width>
+     <height>530</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QPushButton" name="pushButton_Minisize">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>10</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/systoolbar/Resources/SysToolBar/sys_mini.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Setting">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>10</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/login/Resources/tool.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Close">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>10</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/systoolbar/Resources/SysToolBar/sys_close.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_MyAvatar">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>70</width>
+      <height>70</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_MyNick">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>40</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url();</string>
+    </property>
+    <property name="text">
+     <string>昵称昵称昵称</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_MyStateShow">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>40</y>
+      <width>41</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url();</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>我在线上</string>
+     </property>
+     <property name="icon">
+      <iconset resource="logindialog.qrc">
+       <normaloff>:/status/Resources/Status/imonline.png</normaloff>:/status/Resources/Status/imonline.png</iconset>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Q我吧</string>
+     </property>
+     <property name="icon">
+      <iconset resource="logindialog.qrc">
+       <normaloff>:/status/Resources/Status/Qme.png</normaloff>:/status/Resources/Status/Qme.png</iconset>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>离开</string>
+     </property>
+     <property name="icon">
+      <iconset resource="logindialog.qrc">
+       <normaloff>:/status/Resources/Status/away.png</normaloff>:/status/Resources/Status/away.png</iconset>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>忙碌</string>
+     </property>
+     <property name="icon">
+      <iconset resource="logindialog.qrc">
+       <normaloff>:/status/Resources/Status/busy.png</normaloff>:/status/Resources/Status/busy.png</iconset>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>请勿打扰</string>
+     </property>
+     <property name="icon">
+      <iconset resource="logindialog.qrc">
+       <normaloff>:/status/Resources/Status/mute.png</normaloff>:/status/Resources/Status/mute.png</iconset>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>隐身</string>
+     </property>
+     <property name="icon">
+      <iconset resource="logindialog.qrc">
+       <normaloff>:/status/Resources/Status/invisible.png</normaloff>:/status/Resources/Status/invisible.png</iconset>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>离线</string>
+     </property>
+     <property name="icon">
+      <iconset resource="logindialog.qrc">
+       <normaloff>:/status/Resources/Status/imoffline.png</normaloff>:/status/Resources/Status/imoffline.png</iconset>
+     </property>
+    </item>
+   </widget>
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>140</y>
+      <width>241</width>
+      <height>321</height>
+     </rect>
+    </property>
+    <property name="acceptDrops">
+     <bool>false</bool>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/login/Resources/nothing.png);</string>
+    </property>
+    <property name="tabPosition">
+     <enum>QTabWidget::North</enum>
+    </property>
+    <property name="tabShape">
+     <enum>QTabWidget::Rounded</enum>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>52</width>
+      <height>16</height>
+     </size>
+    </property>
+    <property name="elideMode">
+     <enum>Qt::ElideMiddle</enum>
+    </property>
+    <property name="documentMode">
+     <bool>false</bool>
+    </property>
+    <property name="tabsClosable">
+     <bool>false</bool>
+    </property>
+    <property name="movable">
+     <bool>false</bool>
+    </property>
+    <widget class="QWidget" name="tab_BuddyList">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <attribute name="icon">
+      <iconset resource="logindialog.qrc">
+       <normaloff>:/tab/Resources/tabWidget/icon_contacts_selected.png</normaloff>:/tab/Resources/tabWidget/icon_contacts_selected.png</iconset>
+     </attribute>
+     <attribute name="title">
+      <string/>
+     </attribute>
+     <widget class="QTreeWidget" name="treeWidget_BuddyList">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>1</y>
+        <width>221</width>
+        <height>291</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <attribute name="headerVisible">
+       <bool>false</bool>
+      </attribute>
+      <column>
+       <property name="text">
+        <string>1</string>
+       </property>
+      </column>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_GroupList">
+     <attribute name="icon">
+      <iconset resource="logindialog.qrc">
+       <normaloff>:/tab/Resources/tabWidget/icon_group_selected.png</normaloff>:/tab/Resources/tabWidget/icon_group_selected.png</iconset>
+     </attribute>
+     <attribute name="title">
+      <string/>
+     </attribute>
+     <widget class="QListWidget" name="listWidget_GroupList">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>211</width>
+        <height>271</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_RecentList">
+     <attribute name="icon">
+      <iconset resource="logindialog.qrc">
+       <normaloff>:/tab/Resources/tabWidget/icon_last_selected.png</normaloff>:/tab/Resources/tabWidget/icon_last_selected.png</iconset>
+     </attribute>
+     <attribute name="title">
+      <string/>
+     </attribute>
+     <widget class="QListWidget" name="listWidget_RecentList">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>211</width>
+        <height>251</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="textElideMode">
+       <enum>Qt::ElideLeft</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string>新建项目</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>新建项目</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>新建项目</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>新建项目</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>新建项目</string>
+       </property>
+      </item>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_search">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>110</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/search/Resources/SearchBar/bg.png);</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_search">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>110</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/search/Resources/SearchBar/main_search_normal.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_MySignature">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>70</y>
+      <width>201</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url();</string>
+    </property>
+    <property name="text">
+     <string>个性签名 我个性。。。哈哈哈</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>41</x>
+      <y>474</y>
+      <width>23</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/bottomTool/Resources/MainBottomToolBar/QQMusic.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>474</y>
+      <width>22</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/bottomTool/Resources/MainBottomToolBar/QQPCMgr.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>98</x>
+      <y>474</y>
+      <width>22</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/bottomTool/Resources/MainBottomToolBar/QQGame.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>126</x>
+      <y>474</y>
+      <width>22</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/bottomTool/Resources/MainBottomToolBar/PaiPai.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>154</x>
+      <y>474</y>
+      <width>22</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/bottomTool/Resources/MainBottomToolBar/QQLive.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>182</x>
+      <y>474</y>
+      <width>22</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/bottomTool/Resources/MainBottomToolBar/QQPet.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_8">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>474</y>
+      <width>22</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/bottomTool/Resources/MainBottomToolBar/WirelessLive.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_9">
+    <property name="geometry">
+     <rect>
+      <x>238</x>
+      <y>474</y>
+      <width>22</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/bottomTool/Resources/MainBottomToolBar/QQGroup.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_11">
+    <property name="geometry">
+     <rect>
+      <x>61</x>
+      <y>94</y>
+      <width>23</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/toptool/Resources/MainTopToolBar/wblog.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_10">
+    <property name="geometry">
+     <rect>
+      <x>31</x>
+      <y>94</y>
+      <width>24</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/toptool/Resources/MainTopToolBar/qzone.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_13">
+    <property name="geometry">
+     <rect>
+      <x>119</x>
+      <y>94</y>
+      <width>24</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/toptool/Resources/MainTopToolBar/friend.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_12">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>94</y>
+      <width>23</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/toptool/Resources/MainTopToolBar/mail.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_14">
+    <property name="geometry">
+     <rect>
+      <x>149</x>
+      <y>94</y>
+      <width>23</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/toptool/Resources/MainTopToolBar/paipai.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_15">
+    <property name="geometry">
+     <rect>
+      <x>178</x>
+      <y>94</y>
+      <width>23</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/toptool/Resources/MainTopToolBar/purse.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_16">
+    <property name="geometry">
+     <rect>
+      <x>207</x>
+      <y>94</y>
+      <width>23</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/toptool/Resources/MainTopToolBar/soso.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="logindialog.qrc"/>
+ </resources>
+ <connections/>
+</ui>

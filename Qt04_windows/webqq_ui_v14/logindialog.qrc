@@ -1,0 +1,130 @@
+<RCC>
+    <qresource prefix="/login">
+        <file>Resources/tool.png</file>
+        <file>Resources/QQ.png</file>
+        <file>Resources/button_login_down.png</file>
+        <file>Resources/background2.png</file>
+        <file>Resources/arrow_down.png</file>
+        <file>Resources/nothing.png</file>
+        <file>Resources/nothing2.png</file>
+        <file>Resources/nothing3.png</file>
+        <file>Resources/DefGMemberGrayHeadPic16x16.png</file>
+        <file>Resources/MsgBox.png</file>
+    </qresource>
+    <qresource prefix="/status">
+        <file>Resources/Status/away.png</file>
+        <file>Resources/Status/busy.png</file>
+        <file>Resources/Status/imoffline.png</file>
+        <file>Resources/Status/imonline.png</file>
+        <file>Resources/Status/invisible.png</file>
+        <file>Resources/Status/mute.png</file>
+        <file>Resources/Status/Qme.png</file>
+    </qresource>
+    <qresource prefix="/tab">
+        <file>Resources/tabWidget/icon_contacts_normal.png</file>
+        <file>Resources/tabWidget/icon_contacts_selected.png</file>
+        <file>Resources/tabWidget/icon_group_normal.png</file>
+        <file>Resources/tabWidget/icon_group_selected.png</file>
+        <file>Resources/tabWidget/icon_last_normal.png</file>
+        <file>Resources/tabWidget/icon_last_selected.png</file>
+    </qresource>
+    <qresource prefix="/search">
+        <file>Resources/SearchBar/bg.png</file>
+        <file>Resources/SearchBar/main_search_bkg.png</file>
+        <file>Resources/SearchBar/main_search_deldown.png</file>
+        <file>Resources/SearchBar/main_search_delhighlight.png</file>
+        <file>Resources/SearchBar/main_search_down.png</file>
+        <file>Resources/SearchBar/main_search_enter.png</file>
+        <file>Resources/SearchBar/main_search_normal.png</file>
+    </qresource>
+    <qresource prefix="/bottomTool">
+        <file>Resources/MainBottomToolBar/PaiPai.png</file>
+        <file>Resources/MainBottomToolBar/QQGame.png</file>
+        <file>Resources/MainBottomToolBar/QQGroup.png</file>
+        <file>Resources/MainBottomToolBar/QQLive.png</file>
+        <file>Resources/MainBottomToolBar/QQMusic.png</file>
+        <file>Resources/MainBottomToolBar/QQPCMgr.png</file>
+        <file>Resources/MainBottomToolBar/QQPet.png</file>
+        <file>Resources/MainBottomToolBar/Tourism.png</file>
+        <file>Resources/MainBottomToolBar/WirelessLive.png</file>
+    </qresource>
+    <qresource prefix="/toptool">
+        <file>Resources/MainTopToolBar/friend.png</file>
+        <file>Resources/MainTopToolBar/mail.png</file>
+        <file>Resources/MainTopToolBar/paipai.png</file>
+        <file>Resources/MainTopToolBar/purse.png</file>
+        <file>Resources/MainTopToolBar/qzone.png</file>
+        <file>Resources/MainTopToolBar/soso.png</file>
+        <file>Resources/MainTopToolBar/Today.png</file>
+        <file>Resources/MainTopToolBar/wblog.png</file>
+    </qresource>
+    <qresource prefix="/chattool">
+        <file>Resources/BuddyTopToolBar/app.png</file>
+        <file>Resources/BuddyTopToolBar/audio.png</file>
+        <file>Resources/BuddyTopToolBar/create_disc_group.png</file>
+        <file>Resources/BuddyTopToolBar/game.png</file>
+        <file>Resources/BuddyTopToolBar/remote_assistance.png</file>
+        <file>Resources/BuddyTopToolBar/report.png</file>
+        <file>Resources/BuddyTopToolBar/sendfile.png</file>
+        <file>Resources/BuddyTopToolBar/sendsms.png</file>
+        <file>Resources/BuddyTopToolBar/video.png</file>
+    </qresource>
+    <qresource prefix="/chatmidtool">
+        <file>Resources/MidToolBar/aio_quickbar_cut.png</file>
+        <file>Resources/MidToolBar/aio_quickbar_face.png</file>
+        <file>Resources/MidToolBar/aio_quickbar_flirtationface.png</file>
+        <file>Resources/MidToolBar/aio_quickbar_font.png</file>
+        <file>Resources/MidToolBar/aio_quickbar_register.png</file>
+        <file>Resources/MidToolBar/aio_quickbar_richface.png</file>
+        <file>Resources/MidToolBar/aio_quickbar_screen1.png</file>
+        <file>Resources/MidToolBar/aio_quickbar_screen2.png</file>
+        <file>Resources/MidToolBar/aio_quickbar_sendpic.png</file>
+        <file>Resources/MidToolBar/aio_quickbar_sysfont_tab_button.png</file>
+        <file>Resources/MidToolBar/aio_quickbar_twitter.png</file>
+        <file>Resources/MidToolBar/bg.png</file>
+        <file>Resources/MidToolBar/Bold.png</file>
+        <file>Resources/MidToolBar/ChatFrame_FontSetup_background.bmp</file>
+        <file>Resources/MidToolBar/color.png</file>
+        <file>Resources/MidToolBar/facemanage.png</file>
+        <file>Resources/MidToolBar/FaceSelWndBg.png</file>
+        <file>Resources/MidToolBar/Italic.png</file>
+        <file>Resources/MidToolBar/musicsharebtn20.png</file>
+        <file>Resources/MidToolBar/present.png</file>
+        <file>Resources/MidToolBar/QQIme.png</file>
+        <file>Resources/MidToolBar/SetFontTabButton.png</file>
+        <file>Resources/MidToolBar/SoSo.png</file>
+        <file>Resources/MidToolBar/Tab_bkg_sharp.bmp</file>
+        <file>Resources/MidToolBar/tabctrl_round_background.bmp</file>
+        <file>Resources/MidToolBar/toolbar_back.bmp</file>
+        <file>Resources/MidToolBar/tour_sign_16.png</file>
+        <file>Resources/MidToolBar/underline.png</file>
+    </qresource>
+    <qresource prefix="/systoolbar">
+        <file>Resources/SysToolBar/sys_close.png</file>
+        <file>Resources/SysToolBar/sys_mini.png</file>
+        <file>Resources/SysToolBar/sys_setting.png</file>
+    </qresource>
+    <qresource prefix="/Button">
+        <file>Resources/Button/btn_down.png</file>
+        <file>Resources/Button/btn_focus.png</file>
+        <file>Resources/Button/btn_highlight.png</file>
+        <file>Resources/Button/btn_normal.png</file>
+        <file>Resources/Button/btnleft_down.png</file>
+        <file>Resources/Button/btnleft_focus.png</file>
+        <file>Resources/Button/btnleft_highlight.png</file>
+        <file>Resources/Button/btnleft_normal.png</file>
+        <file>Resources/Button/btnright_down.png</file>
+        <file>Resources/Button/btnright_fouce.png</file>
+        <file>Resources/Button/btnright_highlight.png</file>
+        <file>Resources/Button/btnright_normal.png</file>
+        <file>Resources/Button/login_btn_down.png</file>
+        <file>Resources/Button/login_btn_focus.png</file>
+        <file>Resources/Button/login_btn_highlight.png</file>
+        <file>Resources/Button/login_btn_normal.png</file>
+    </qresource>
+    <qresource prefix="/JS">
+        <file>JS/hash.js</file>
+        <file>JS/QQ.js</file>
+        <file>JS/hash1.js</file>
+    </qresource>
+</RCC>
